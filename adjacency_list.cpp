@@ -11,8 +11,8 @@ int main()
     for(int i=0;i<m;i++){
         int u,v;
         cin>>u>>v;
-        adj[u].push_back(v); //comment this line for weighted graph
-        adj[v].push_back(u);
+        adj[u].push_back(v); 
+        adj[v].push_back(u);// comment this line for directed graph
     }
 
     return 0;
