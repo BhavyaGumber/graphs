@@ -8,7 +8,7 @@ int main()
     //use of adjacency matrix
     int n ,m;
     cin>>n>>m;
-    int adj[n+1][n+1];
+    int adj[n+1][m+1];
     for(int i=0;i<m;i++){
         int u,v;
         cin>>u>>v;
